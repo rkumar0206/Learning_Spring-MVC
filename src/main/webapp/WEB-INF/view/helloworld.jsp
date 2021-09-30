@@ -4,15 +4,17 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>HelloWorld response page</title>
 </head>
 <body>
 
-<h2>Spring MVC Demo - Home Page</h2>
+Hello World of Spring!
 
-<hr>
+<br><br>
 
-<a href="showForm">Hello World form</a>
+<!--Student name : ${param.studentName} -->
+ 
+The message: <u>${message}</u>
 
 </body>
 </html>
