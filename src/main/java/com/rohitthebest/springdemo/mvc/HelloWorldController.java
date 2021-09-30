@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
+@RequestMapping("/hello") // this is a high level request mapping, now all the mappings will be like hello/name
 public class HelloWorldController {
 
 	// need a controller a method to show the initial form
